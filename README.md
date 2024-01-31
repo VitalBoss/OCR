@@ -1,1 +1,2 @@
 # OCR
+В данной работе я реализовал систему распознавания символов(Optical Character Recognition, OCR) -  автомобильных номеров. Архитектура модели состоит из CNN(conv, leakyrelu, maxpool) и Bi-LSTM с CTC-loss. Качество модели оценивал по двум метрикам: accuracy и Character Error Rate (CER). Accuracy считает долю правильно распознанных номеров. CER оценивает число посимвольных ошибок. На тесте accuracy=0.97, CER=0.006
